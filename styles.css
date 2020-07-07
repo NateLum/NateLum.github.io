@@ -57,12 +57,12 @@ h1 {
 @media (min-width: 360px) {
     .head-img {
         max-width: 50%;
-        max-height: 10%;
+        height: auto;
         margin-bottom: 20px;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .head-img {
         max-width: 25%;
     }
