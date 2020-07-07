@@ -54,7 +54,9 @@ h1 {
     background-color: white;
 }
 
-@media (min-width: 360px) {
+
+
+@media (min-width: 0px) {
     .head-img {
         max-width: 50%;
         height: auto;
