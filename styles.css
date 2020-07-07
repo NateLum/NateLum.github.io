@@ -55,16 +55,21 @@ h1 {
 }
 
 
+.imgcontainer{
+    width: 75%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
 
 .head-img {
     width: 100%;
     margin-bottom: 20px;
-    align-items: center;
 }
 
 @media (min-width: 1200px) {
     .head-img {
-        max-width: 25%;
+        max-width: 40%;
         align-items: center;
     }
 }
