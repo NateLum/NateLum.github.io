@@ -1,7 +1,28 @@
+/* header */
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+.navbar-custom {
+    background-color: black;
+}
 /* tags */
 body {
     font-family: 'Abel';font-size: 22px;
     margin: 0;
+    background-color: black;
 }
 
 hr {
@@ -13,17 +34,38 @@ hr {
 
 
 h1 {
-    margin-top: 0
+    font-family: Helvetica,Arial,sans-serif;
+    margin-top: 60px;
+    padding-top: 20px;
+    margin-bottom: 60px;
 }
 /* classes: for when you use several times, smth can have more than one class */
 
-.altText {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 5em;
+.head-img {
+    padding-bottom: 30px;
 }
 
-.altText:hover {
-    font-size: 10em;
+.aboutP {
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.aboutContainer {
+    background-color: white;
+}
+
+@media (min-width: 576px) {
+    .head-img {
+        max-width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .head-img {
+        max-width: 25%;
+    }
 }
 
 /* ids: you can only have one of them*/
@@ -31,7 +73,28 @@ h1 {
 #home {
     color: white;
     background-color: black;
-    padding-bottom: 20px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#about-me {
+    color: black;
+    background-color: white;
+    margin-bottom: 60px;
+    padding-bottom: 80px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#projects {
+    color: white;
+    background-color: black;
+    margin-bottom: 60px;
+    padding-bottom: 80px;
+    padding-top: 5px;
+    text-align: center;
 }
 
 #heading {
