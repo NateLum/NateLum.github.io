@@ -60,7 +60,6 @@ h1 {
     max-width: 50%;
     height: auto;
     margin-bottom: 20px;
-    object-fit: cover
 }
 
 @media (min-width: 1200px) {
