@@ -57,7 +57,7 @@ h1 {
 @media (min-width: 360px) {
     .head-img {
         max-width: 50%;
-        height: auto;
+        max-height: 50%;
         margin-bottom: 20px;
     }
 }
