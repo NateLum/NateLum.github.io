@@ -56,12 +56,10 @@ h1 {
 
 
 
-@media (min-width: 0px) {
-    .head-img {
-        max-width: 50%;
-        height: auto;
-        margin-bottom: 20px;
-    }
+.head-img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 1200px) {
